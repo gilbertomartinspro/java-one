@@ -9,5 +9,6 @@ public class TestaFuncionario {
         System.out.println(gilberto.getNome());
         System.out.println(gilberto.getBonificacao());
         
+        
     }
 }
