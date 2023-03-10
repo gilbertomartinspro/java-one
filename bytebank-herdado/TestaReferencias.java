@@ -4,10 +4,6 @@ public class TestaReferencias {
         g1.setNome("Gilberto");
         g1.setSalario(5000.00);
 
-        Funcionario f1 = new Funcionario();
-        f1.setNome("João");
-        f1.setSalario(2500.00);
-
         EditorVideo ev1 = new EditorVideo();
         ev1.setSalario(3000.00);
 
@@ -16,7 +12,6 @@ public class TestaReferencias {
 
         ControleBonificacao controleBonificacao = new ControleBonificacao();
         controleBonificacao.registra(g1);
-        controleBonificacao.registra(f1);
         controleBonificacao.registra(ev1);
         controleBonificacao.registra(d1);
 
