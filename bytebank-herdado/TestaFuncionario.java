@@ -1,8 +1,6 @@
 public class TestaFuncionario {
     public static void main(String[] args) {
 
-        Cliente cliente = new Cliente();        
-
         Funcionario gilberto = new Gerente();
         gilberto.setNome("Gilberto");
         gilberto.setCpf("123456789");
