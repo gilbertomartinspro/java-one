@@ -26,4 +26,7 @@ public class Cliente {
      public void setProfissao(String profissao) {
          this.profissao = profissao;
      }
+
+    public void setSenha(int i) {
+    }
 }
